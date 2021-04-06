@@ -1,0 +1,125 @@
+*{
+	font-family: 'Open Sans';
+
+}
+body{
+	background-image: url(./assets/background.jpg);
+}
+
+.container{
+	width: 60%;
+	height: 400px;
+	color: black;
+	background-color: white;
+	margin: auto;
+	padding: 0;
+	position: relative;
+	border-radius: 10px;
+	padding: 5px;
+	overflow: hidden;
+
+	
+	
+}
+
+h2{
+	color: #0be0dc;
+	overflow: hidden;
+	text-shadow: 1px 1px 1px black;
+}
+
+h3{
+	color: #96ed0b;
+	overflow: hidden;
+	text-shadow: 1px 1px 1px black;
+}
+
+.bottom1{
+	height: 50%;
+	width: 50%;
+	background-color: #0be0dc;
+	position: absolute;
+	float: left;
+	display: inline-block;
+	bottom: 0;
+	left: 0;
+	border-radius: 10px;
+	overflow: hidden;
+	
+	
+}
+
+.bottom2{
+	height: 50%;
+	width: 50%;
+	background-color: #0bb7b1;
+	display: inline-block;
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+#hp{
+	color: grey;
+	overflow: hidden;
+}
+
+#insc{
+	color: white;
+	margin-left: 40px;
+	overflow: hidden;
+	text-shadow: 1px 1px 1px black;
+}
+
+#ben{
+	color: white;
+	margin-left: 40px;
+	overflow: hidden;
+	text-shadow: 1px 1px 1px black;
+}
+ul{
+	color: #d3cfcf;
+	list-style: none;
+	overflow: hidden;
+}
+a{
+	font-size: 24px;
+	color: white;
+	font-weight: bold;
+	margin-left: 40px;
+	overflow: hidden;
+}
+
+.x2{
+	color: #6d6d6d;
+	margin-left: 40px;
+	overflow: hidden;
+
+
+}
+
+.x1{
+	color: #6d6d6d;
+	overflow: hidden;
+}
+input{
+	border-radius: 20px;
+	background-color: #96ed0b;
+	position: absolute;
+	bottom: 10%;
+	right: 40%;
+	left: 40%;
+	font-weight: bold;
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	transition: width 2s;
+	border-style: none;
+	height: 30px;
+	width: 100px;
+}
+.button: hover{
+	width: 100px;
+	background-color: black;
+}
